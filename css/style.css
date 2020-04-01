@@ -1,0 +1,96 @@
+:root{
+    --color-gray1:#9aa5a7;
+    --color-gray2:#838c92;
+    --color-white:#ffffff;
+    --color-marron1:#fffffe;
+    --color-marron2:#a98d6c;
+    --color-black1:#222222;
+    --font-primary:'Sacramento', cursive;
+    --font-secondary:'Baloo Tamma 2', cursive;
+
+}
+body{
+    font-family:var(--font-secondary);
+    color: var(--color-black1);
+}
+main{
+    overflow-y: hidden;
+}
+
+.topText{
+    font-size: 8px;
+    margin: 0;
+    padding: 0;
+}
+.topX{
+    width: 30px;
+    display: block;
+    background-color: var(--color-gray2);
+}
+.topBar{
+    padding: 0;
+    background-color: var(--color-gray1);
+}
+.navbar-brand{
+    font-family: var(--font-primary);
+    font-size: 25px;
+}
+.btn-success{
+    background-color: var(--color-marron2);
+    border-color: var(--color-marron2);
+    border-radius: 0;
+    padding: 16px 18px;
+}
+.underline{
+    text-decoration: underline;
+}
+.color-marron2{
+    color: var(--color-marron2);
+}
+.color-white{
+    color: var(--color-white);
+}
+.bgc-gray1{
+    background: var(--color-gray1);
+    border: var(--color-gray1);
+}
+.bgc-gray2{
+    background: var(--color-gray2);
+    border: var(--color-gray2);
+}
+.bgc-marron1{
+    background: var(--color-marron1);
+    border: var(--color-marron1);
+}
+.bgc-marron2{
+    background: var(--color-marron2);
+    border: var(--color-marron2);
+}
+
+.bgc-black1{
+    background: var(--color-black1);
+    border: var(--color-black1);
+}
+.ff-primary{
+    font-family: var(--font-primary);
+}
+.ff-secondary{
+    font-family: var(--font-secondary);
+}
+.text-muted{
+    color: white;
+}
+.redSocial{
+    display: flex;
+    justify-content: center;
+}
+
+.fab {
+
+
+}
+.barack{
+    object-fit: cover;
+}
+
+
